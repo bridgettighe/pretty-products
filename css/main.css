@@ -89,4 +89,5 @@ ul li:first-child {
   color: #fff;
   text-decoration: none;
   padding: .5em 1.5em .7em;
+  font-weight: bold;
 }
