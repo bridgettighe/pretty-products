@@ -27,7 +27,6 @@ a {
   font-family: Oswald, sans-serif;
 }
 
-
 p {
   text-align: center;
   margin: 0 0 1.5rem;
@@ -39,9 +38,9 @@ ol {
   padding: 0;
   margin: 0;
 
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 ol > li {
@@ -57,8 +56,8 @@ ol > li {
 
 h2 + img {
   order: -1;
-  mad-width: 15em;
-  margin: 1.5rem;
+  max-width: 15em;
+  margin-bottom: 1.5rem;
 }
 
 ol ul {
